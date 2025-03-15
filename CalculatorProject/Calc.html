@@ -1,0 +1,101 @@
+<head>
+  <link rel="stylesheet" href="calc.css" />
+  <title>Calculator</title>
+  <link rel="icon" type="image/png" href="calcIcon.png">
+</head>
+
+<div class="container">
+  <div id="main-calc" class="inner">
+    <div class="f">
+      <div class="screen-holder">
+        <input
+          type="text"
+          id="front-output"
+          class="screen"
+          type="text"
+          placeholder="0"
+          readonly
+        />
+      </div>
+
+      <div class="btn-holder">
+        <button class="normal-btn" id="percent">%</button>
+        <button class="normal-btn" id="clear-after-operator">CE</button>
+        <button class="normal-btn" id="clear-all">C</button>
+        <button class="normal-btn" id="clear-last"><img src="back.svg"></button>
+        <button class="normal-btn" id="seven">7</button>
+        <button class="normal-btn" id="eight">8</button>
+        <button class="normal-btn" id="nine">9</button>
+        <button class="normal-btn" id="divide">/</button>
+        <button class="normal-btn" id="four">4</button>
+        <button class="normal-btn" id="five">5</button>
+        <button class="normal-btn" id="six">6</button>
+        <button class="normal-btn" id="multiply">x</button>
+        <button class="normal-btn" id="one">1</button>
+        <button class="normal-btn" id="two">2</button>
+        <button class="normal-btn" id="three">3</button>
+        <button class="normal-btn" id="subtract">-</button>
+        <button class="normal-btn" id="plus-minus">+/-</button>
+        <button class="normal-btn" id="zero">0</button>
+        <button class="normal-btn" id="decimal">.</button>
+        <button class="normal-btn" id="add">+</button>
+        <button class="normal-btn" id="scientific">Switch To Scientific</button>
+        <button class="normal-btn" id="equals">=</button>
+    </div>
+    
+    </div>
+    <div class="b">
+
+        <div class="screen-holder ">
+            <input
+              type="text"
+              id="back-output"
+              class="screen b-screen"
+              type="text"
+              placeholder="0"
+            />
+          </div>
+    
+          <div class="back-btn-holder">
+            <button id="pi" class="Scientific-btn">π</button>
+            <button id="e" class="Scientific-btn">e</button>
+            <button id="clear-all-scientific" class="Scientific-btn">C</button>
+            <button id="clear-after-operator-scientific" class="Scientific-btn">CE</button>
+            <button id="clear-last-scientific" class="Scientific-btn"><img src="back2.svg"></button>
+            <button id="square" class="Scientific-btn">x²</button>
+            <button id="inverse" class="Scientific-btn">1/x</button>
+            <button id="absolute" class="Scientific-btn">|x|</button>
+            <button id="exp" class="Scientific-btn">exp</button>
+            <button id="modulus" class="Scientific-btn">mod</button>
+            <button id="sqrt" class="Scientific-btn">√x</button>
+            <button id="open-paren" class="Scientific-btn">(</button>
+            <button id="close-paren" class="Scientific-btn">)</button>
+            <button id="factorial" class="Scientific-btn">n!</button>
+            <button id="divide" class="Scientific-btn">/</button>
+            <button id="power" class="Scientific-btn">xʸ</button>
+            <button id="seven" class="Scientific-btn">7</button>
+            <button id="eight" class="Scientific-btn">8</button>
+            <button id="nine" class="Scientific-btn">9</button>
+            <button id="multiply" class="Scientific-btn">*</button>
+            <button id="ten-power-x" class="Scientific-btn">10ˣ</button>
+            <button id="four" class="Scientific-btn">4</button>
+            <button id="five" class="Scientific-btn">5</button>
+            <button id="six" class="Scientific-btn">6</button>
+            <button id="subtract" class="Scientific-btn">-</button>
+            <button id="log" class="Scientific-btn">log</button>
+            <button id="one" class="Scientific-btn">1</button>
+            <button id="two" class="Scientific-btn">2</button>
+            <button id="three" class="Scientific-btn">3</button>
+            <button id="add" class="Scientific-btn">+</button>
+            <button id="ln" class="Scientific-btn">ln</button>
+            <button id="normal" class="Scientific-btn" >Switch To Normal</button>
+            <button id="equals-scientific" class="Scientific-btn">=</button>
+        </div>
+        
+
+    </div>
+  </div>
+</div>
+
+<script src="calc.js"></script>
+<script src="SciCalc.js"></script>
